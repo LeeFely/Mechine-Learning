@@ -6,8 +6,8 @@
 
 # aprendizado de máquina
 <p>O que eu faço é aprendizado de máquina sobre R e Python. Não é indicado para novatos ou profissionais de computação, porque você precisa aprender mais difícil. Estes são usados ​​apenas no campo da pesquisa científica.</p>
-# maschinelles Lernen
 
+# maschinelles Lernen
 <p>Was ich mache, ist maschinelles Lernen über R und Python. Es ist nicht für Anfänger oder Computerprofis geeignet, da Sie es schwieriger lernen müssen. Diese werden nur im Bereich der wissenschaftlichen Forschung verwendet.</p>
 
 # apprentissage automatique
