@@ -1,17 +1,87 @@
-# Mechine Learning
-<p>What I do is machine learning about R and Python. It is not suitable for novices or computer professionals, because you need to learn it more difficult. These are only used in the field of scientific research.</p>
+# Data for Machine Learning with R
+[Machine Learning with R](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-r) by Brett Lantz is a book that provides an introduction to machine learning using R. As far as I can tell, Packt Publishing does not make its datasets
+available online unless you buy the book and create a [user account](https://www.packtpub.com/books/content/support) which can be a problem if you are checking the book out from the library or borrowing the book from a friend. All of these datasets
+are in the public domain but simply needed some cleaning up and recoding to match the format in the book.
 
-# 机器学习
-<p>本人做的都是关于R和Python的机器学习，不适合新手，不适合计算机专业的人员，因为你们需要学得更难，我的这些只是应用于科研领域。</p>
+# How to download the data
+1. In your Mac or Linux envirounment, open a terminal and change to the directory where you want your data to be downloaded.
+2. Go to the github page you want to download it's data (for example the challenger data in chapter 6: https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/challenger.csv)
+3. On the right side, you will find a button called "raw". Click on it.
+4. Copy the url you will get for the new page (in our example I got https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/challenger.csv)
+5. put the following command in the terminal screen
+wget name_of_url
 
-# aprendizado de máquina
-<p>O que eu faço é aprendizado de máquina sobre R e Python. Não é indicado para novatos ou profissionais de computação, porque você precisa aprender mais difícil. Estes são usados ​​apenas no campo da pesquisa científica.</p>
+so in our example it should be like this
+`wget https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/challenger.csv`
 
-# maschinelles Lernen
-<p>Was ich mache, ist maschinelles Lernen über R und Python. Es ist nicht für Anfänger oder Computerprofis geeignet, da Sie es schwieriger lernen müssen. Diese werden nur im Bereich der wissenschaftlichen Forschung verwendet.</p>
 
-# apprentissage automatique
-<p>Ce que je fais, c'est de l'apprentissage automatique sur R et Python. Ce n'est pas adapté aux novices ou aux professionnels de l'informatique, car il faut l'apprendre plus difficilement. Ceux-ci ne sont utilisés que dans le domaine de la recherche scientifique.</p>
+Chapter 1
+---------
 
-# 機械学習
-<p>私がやっていることは、RとPythonについての機械学習です。これは、より難しい学習が必要なため、初心者やコンピューターの専門家には適していません。これらは、科学研究の分野でのみ使用されます。</p>
+No datasets used
+
+Chapter 2
+---------
+
+usedcars.csv could not be found online
+
+Chapter 3
+---------
+
+wisc_bc_data.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/
+
+Chapter 4
+---------
+
+sms_spam.csv from http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
+
+Chapter 5
+---------
+
+credit.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/
+
+mushrooms.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/
+
+Chapter 6
+---------
+challenger.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/space-shuttle/
+
+insurance.csv could not be found online
+
+whitewines.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
+
+Chapter 7
+---------
+
+concrete.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/compressive/
+
+letterdata.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/
+
+Chapter 8
+---------
+
+groceries.csv is from [arules](http://cran.r-project.org/web/packages/arules/index.html) package but probably just easier to call `library(arules); data(Groceries)`
+
+Chapter 9
+---------
+
+snsdata.csv could not be found online
+
+Chapter 10
+----------
+
+sms_results.csv is likely from the `sms_test_pred` object in Chapter 4 but difficult to be sure.
+
+credit.csv is likely the same file from Chapter 5.
+
+Chapter 11
+----------
+
+credit.csv from Chapter 5 is reused.
+
+Chapter 12
+----------
+
+No datasets used
+
+
